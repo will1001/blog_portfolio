@@ -1,4 +1,20 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "itheme"
+baseURL = 'https://blog.wilirahmatm.com/'
+languageCode = 'en'
+defaultContentLanguage = "en"
+hasCJKLanguage = true
+title = 'Wili Rahmat Muhamad'
+copyright = 'Floyd Li'
+theme = 'itheme'
+paginate = 5
+[params]
+  defaultCover = 'https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg'
+  email = 'wilirahmatm@gmail.com'
+  [[params.socialMedia]]
+    name = 'Github'
+    url = 'https://github.com/will1001'
+  [[params.socialMedia]]
+    name = 'Linkedin'
+    url = 'https://www.linkedin.com/in/wilirahmatm/'
+  [[params.blogroll]]
+    name = 'Upwork'
+    url = 'https://www.upwork.com/freelancers/~010e9458891ddd920f?s=1110580755107926016'
